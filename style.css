@@ -1,4 +1,32 @@
-h1 {
-    font-family: Georgia;
-    font-size: 68px;
+/* cleaning up bootstrap */
+
+body {
+    font-family: Baskerville;
 }
+
+
+#name {
+    margin: auto;
+    font-size: 64px;
+    letter-spacing: 7px;
+}
+
+@media (min-width: 756px) {
+    #name-box {
+        width: 50%;
+        top: 0;
+        left: 0;
+    }
+    #name {
+        /*position: fixed;*/
+        /*top: 50%;*/
+        /*width: 50%;*/
+        text-align: center;
+        margin: auto;
+        /*transform: translateY(-50%);*/
+    }
+    #content {
+        margin-left: 50%;
+    }
+}
+
