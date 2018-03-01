@@ -25,11 +25,24 @@ svg {
 
 #content {
     background: none;
-    /*font-family: "Inconsolata-dz";*/
     /*font-family: "Roboto Mono", monospace;*/
     /*font-family: "Open Sans", sans-serif;*/
     font-family: "Roboto Slab", serif;
     font-weight: 300;
+}
+
+#links {
+    padding: 0px;
+    text-decoration: none;
+    /*position: absolute;*/
+    margin: auto;
+    width: 50%;
+    transform: translateY(-50%);
+}
+
+#links li {
+    display: inline-block;
+    float: left;
 }
 
 @media (min-width: 756px) {
