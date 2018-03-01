@@ -5,14 +5,15 @@
 
 body {
     font-family: Baskerville;
-    background: #f2f2f2;
+    /*background: #f2f2f2;*/
+    background: #fff;
 }
 
 
 #name-box {
     margin-left: 15px;
     font-size: 64px;
-    letter-spacing: 8px;
+    letter-spacing: 10px;
 }
 
 svg {
@@ -24,7 +25,11 @@ svg {
 
 #content {
     background: none;
-    font-family: "Inconsolata-dz";
+    /*font-family: "Inconsolata-dz";*/
+    /*font-family: "Roboto Mono", monospace;*/
+    /*font-family: "Open Sans", sans-serif;*/
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
 }
 
 @media (min-width: 756px) {

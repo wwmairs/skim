@@ -27,7 +27,8 @@ for (var i = 0; i < NUM_PANES; i++) {
 let bg = document.createElementNS(svgns, "rect");
 bg.setAttribute("width", "100%");
 bg.setAttribute("height", "100%");
-bg.setAttribute("fill", "#f2f2f2");
+// bg.setAttribute("fill", "#f2f2f2");
+bg.setAttribute("fill", "#fff");
 bg.setAttribute("x", 0);
 bg.setAttribute("y", 0);
 bg.setAttribute("mask", "url(#text)");
@@ -55,6 +56,5 @@ svg.appendChild(m);
 window.addEventListener('scroll', function(e) {
   for (var i = 0; i < ps.length; i++) {
     ps[i].setAttribute("y", i * (window.innerHeight / FRAC) - (scrollY / FRAC));
-    console.log(i * (window.innerHeight / FRAC) - (scrollY / FRAC));
   }
-})
+});
