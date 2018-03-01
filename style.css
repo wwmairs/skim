@@ -1,16 +1,18 @@
-/* cleaning up bootstrap */
+@font-face {
+    font-family: Inconsolata-dz;
+    src: url("Inconsolata-dz.otf");
+}
 
 body {
     font-family: Baskerville;
+    background: #f2f2f2;
 }
 
 
 #name-box {
-    margin: auto;
+    margin-left: 15px;
     font-size: 64px;
-    letter-spacing: 7px;
-    color: rgba(0, 0, 0, 0);
-    background: white;
+    letter-spacing: 8px;
 }
 
 svg {
@@ -22,6 +24,7 @@ svg {
 
 #content {
     background: none;
+    font-family: "Inconsolata-dz";
 }
 
 @media (min-width: 756px) {

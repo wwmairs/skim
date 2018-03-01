@@ -9,7 +9,7 @@ svg.setAttribute("height", container.clientHeight);
 let ps = [];
 container.appendChild(svg);
 
-cs = ["red", "blue", "green"];
+cs = ["#3e86b0", "#86B03E", "#b03e86"];
 
 for (var i = 0; i < NUM_PANES; i++) {
   let p = document.createElementNS(svgns, "rect");
@@ -27,7 +27,7 @@ for (var i = 0; i < NUM_PANES; i++) {
 let bg = document.createElementNS(svgns, "rect");
 bg.setAttribute("width", "100%");
 bg.setAttribute("height", "100%");
-bg.setAttribute("fill", "#fff");
+bg.setAttribute("fill", "#f2f2f2");
 bg.setAttribute("x", 0);
 bg.setAttribute("y", 0);
 bg.setAttribute("mask", "url(#text)");
