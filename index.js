@@ -1,5 +1,6 @@
 // set up svg
 const NUM_PANES = 5;
+const FRAC = 8;
 const svgns = "http://www.w3.org/2000/svg";
 let container = document.getElementById("name-box");
 let svg = document.createElementNS(svgns, "svg");
@@ -14,9 +15,9 @@ for (var i = 0; i < NUM_PANES; i++) {
   let p = document.createElementNS(svgns, "rect");
   p.setAttribute("fill", cs[i]);
   p.setAttribute("x", 0);
-  p.setAttribute("y", i * window.innerHeight);
+  p.setAttribute("y", i * (window.innerHeight / FRAC));
   p.setAttribute("width", container.clientWidth);
-  p.setAttribute("height", window.innerHeight);
+  p.setAttribute("height", (window.innerHeight / FRAC));
   ps.push(p);
   svg.appendChild(p);
 }
@@ -49,3 +50,11 @@ t.setAttribute("fill", "#000");
 t.innerHTML = "skimplicity";
 m.appendChild(t);
 svg.appendChild(m);
+
+// scrolling moves colored panels up
+window.addEventListener('scroll', function(e) {
+  for (var i = 0; i < ps.length; i++) {
+    ps[i].setAttribute("y", i * (window.innerHeight / FRAC) - (scrollY / FRAC));
+    console.log(i * (window.innerHeight / FRAC) - (scrollY / FRAC));
+  }
+})
