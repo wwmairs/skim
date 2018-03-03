@@ -3,6 +3,10 @@
     src: url("Inconsolata-dz.otf");
 }
 
+:root {
+    --color-one: #3e86b0;
+}
+
 body {
     font-family: Baskerville;
     /*background: #f2f2f2;*/
@@ -12,6 +16,9 @@ body {
 /* name */
 
 #name-box {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
     margin-left: 15px;
     font-size: 64px;
     letter-spacing: 10px;
@@ -30,22 +37,24 @@ svg {
     background: none;
     /*font-family: "Roboto Mono", monospace;*/
     /*font-family: "Open Sans", sans-serif;*/
-    font-family: "Roboto Slab", serif;
+    /*font-family: "Roboto Slab", serif;*/
+    /*font-family: Baskerville;*/
     font-weight: 300;
+    letter-spacing: 2px;
 }
 
 #links {
     padding: 5px;
     text-decoration: none;
     margin: 0 auto;
-    width: 252px;
+    width: 400px;
     /*overflow-y: hidden;*/
     transform: translateY(-75%);
 }
 
 #links li {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     display: inline-block;
     float: left;
     border-right: 1px solid black;
@@ -56,8 +65,13 @@ svg {
 }
 
 #links a {
+    font-size: 16px;
     color: black;
     text-decoration: none;
+}
+
+#links a:hover{
+    border-bottom: 4px solid var(--color-one);
 }
 
 @media (min-width: 756px) {
