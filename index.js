@@ -1,3 +1,7 @@
+// fix margin-top of landing
+let l = document.getElementById("landing");
+l.setAttribute("style", "margin-top: " + ((window.innerHeight / 2) - 60) + "px");
+
 // set up svg
 const NUM_PANES = 5;
 const FRAC = 8;
@@ -54,7 +58,16 @@ svg.appendChild(m);
 
 // scrolling moves colored panels up
 window.addEventListener('scroll', function(e) {
+  resizeRects();
+});
+
+window.addEventListener('resize', function(e) {r
+  resizeRects();
+});
+
+function resizeRects() {
   for (var i = 0; i < ps.length; i++) {
     ps[i].setAttribute("y", i * (window.innerHeight / FRAC) - (scrollY / FRAC));
+    ps[i].setAttribute("height", (window.innerHeight / FRAC));
   }
-});
+}

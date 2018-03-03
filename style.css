@@ -9,6 +9,7 @@ body {
     background: #fff;
 }
 
+/* name */
 
 #name-box {
     margin-left: 15px;
@@ -23,6 +24,8 @@ svg {
     left: 0;
 }
 
+/* content */
+
 #content {
     background: none;
     /*font-family: "Roboto Mono", monospace;*/
@@ -32,17 +35,29 @@ svg {
 }
 
 #links {
-    padding: 0px;
+    padding: 5px;
     text-decoration: none;
-    /*position: absolute;*/
-    margin: auto;
-    width: 50%;
-    transform: translateY(-50%);
+    margin: 0 auto;
+    width: 252px;
+    /*overflow-y: hidden;*/
+    transform: translateY(-75%);
 }
 
 #links li {
+    padding-left: 20px;
+    padding-right: 20px;
     display: inline-block;
     float: left;
+    border-right: 1px solid black;
+}
+
+#links li:last-child {
+    border-right: none;
+}
+
+#links a {
+    color: black;
+    text-decoration: none;
 }
 
 @media (min-width: 756px) {
@@ -63,4 +78,8 @@ svg {
 
 .pane {
     height: 100vh;
+}
+
+.filler {
+    padding-top: 20px;
 }
