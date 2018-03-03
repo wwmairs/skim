@@ -4,7 +4,7 @@ l.setAttribute("style", "margin-top: " + ((window.innerHeight / 2) - 60) + "px")
 
 // set up svg
 const NUM_PANES = 5;
-const FRAC = 8;
+const FRAC = 4;
 const svgns = "http://www.w3.org/2000/svg";
 let container = document.getElementById("name-box");
 let svg = document.createElementNS(svgns, "svg");
@@ -13,7 +13,7 @@ svg.setAttribute("height", container.clientHeight);
 let ps = [];
 container.appendChild(svg);
 
-cs = ["#3e86b0", "#86B03E", "#b03e86"];
+cs = ["#3e86b0", "#86B03E", "#b03e86", "#b0683e"];
 
 for (var i = 0; i < NUM_PANES; i++) {
   let p = document.createElementNS(svgns, "rect");
@@ -53,7 +53,16 @@ t.setAttribute("y", "50%");
 t.setAttribute("text-anchor", "middle");
 t.setAttribute("fill", "#000");
 t.innerHTML = "skimplicity";
+let t2 = document.createElementNS(svgns, "text");
+t2.setAttribute("x", "50%");
+t2.setAttribute("y", "80%");
+t2.setAttribute("text-anchor", "middle");
+t2.setAttribute("fill", "#000");
+t2.setAttribute("font-size", "12px");
+t2.setAttribute("letter-spacing", "5px");
+t2.innerHTML = "bookbinding &bull; conservation";
 m.appendChild(t);
+m.appendChild(t2);
 svg.appendChild(m);
 
 // scrolling moves colored panels up
