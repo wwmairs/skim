@@ -73,7 +73,7 @@ window.addEventListener('scroll', function(e) {
   resizeRects();
 });
 
-window.addEventListener('resize', function(e) {r
+window.addEventListener('resize', function(e) {
   resizeRects();
 });
 
@@ -83,3 +83,7 @@ function resizeRects() {
     ps[i].setAttribute("height", (window.innerHeight / FRAC));
   }
 }
+
+// height / 4 - padding * 8
+$(".preview_image").attr("height", ((window.innerHeight / 4) - (10)));
+
