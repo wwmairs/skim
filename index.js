@@ -95,3 +95,10 @@ for (var i = 0; i < buttons.length; i++) {
   let m = $("#" + b.dataset.dir);
   b.onclick = () => {m.css("display", "block")};
 }
+
+// esc key closes modals
+$(document).keyup((e) => {
+  if (e.which == 27) {
+    $(".modal").css("display", "none");
+  }
+});
