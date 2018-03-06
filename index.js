@@ -86,4 +86,5 @@ function resizeRects() {
 
 // height / 4 - padding * 8
 $(".preview_image").attr("height", ((window.innerHeight / 4) - (10)));
+$(".button").css("width", $(".preview").innerWidth() - 5);
 
