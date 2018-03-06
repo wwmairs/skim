@@ -84,7 +84,14 @@ function resizeRects() {
   }
 }
 
-// height / 4 - padding * 8
+// setting dimensions of preview images and buttons
 $(".preview_image").attr("height", ((window.innerHeight / 4) - (10)));
 $(".button").css("width", $(".preview").innerWidth() - 5);
 
+// setting up buttons to load modals corresponding to dataset.dir
+let buttons = document.getElementsByClassName("button");
+for (var i = 0; i < buttons.length; i++) {
+  let b = buttons[i];
+  let m = $("#" + b.dataset.dir);
+  b.onclick = () => {m.css("display", "block")};
+}
