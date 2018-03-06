@@ -96,9 +96,15 @@ for (var i = 0; i < buttons.length; i++) {
   b.onclick = () => {m.css("display", "block")};
 }
 
-// esc key closes modals
+// esc key or x button closes modals
 $(document).keyup((e) => {
   if (e.which == 27) {
     $(".modal").css("display", "none");
   }
 });
+
+$(".exit-button").click(() => {$(".modal").css("display", "none")});
+
+// set height of slide-img
+$(".slide-img").attr("height", window.innerHeight * 4 / 5);
+$(".slide-img").css("margin-top", (window.innerHeight / 10)); 
