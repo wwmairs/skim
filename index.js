@@ -1,10 +1,11 @@
-// fix margin-top of landing
-let l = document.getElementById("landing");
-l.setAttribute("style", "margin-top: " + ((window.innerHeight / 2) - 60) + "px");
+/////////////////////////////
+// svg ish
+/////////////////////////////
 
 // set up svg
-const NUM_PANES = 5;
-const FRAC = 4;
+const NUM_PANES = 4;
+// 4 is a good frac for desktop
+const FRAC = 2;
 const svgns = "http://www.w3.org/2000/svg";
 let container = document.getElementById("name-box");
 let svg = document.createElementNS(svgns, "svg");
@@ -42,14 +43,14 @@ let m = document.createElementNS(svgns, "mask");
 m.setAttribute("id", "text");
 let r = document.createElementNS(svgns, "rect");
 r.setAttribute("width", "100%");
-r.setAttribute("height", "100%");
+r.setAttribute("height", "110%");
 r.setAttribute("fill", "#fff");
 r.setAttribute("x", 0);
 r.setAttribute("y", 0);
 m.appendChild(r);
 let t = document.createElementNS(svgns, "text");
 t.setAttribute("x", "50%");
-t.setAttribute("y", "50%");
+t.setAttribute("y", "55%");
 t.setAttribute("text-anchor", "middle");
 t.setAttribute("fill", "#000");
 t.innerHTML = "skimplicity";
@@ -84,6 +85,14 @@ function resizeRects() {
   }
 }
 
+/////////////////////////////
+// details
+/////////////////////////////
+
+// fix margin-top of landing
+  let l = document.getElementById("landing");
+  l.setAttribute("style", "margin-top: " + ((window.innerHeight / 2) - 60) + "px");
+
 // setting dimensions of preview images and buttons
 $(".preview_image").attr("height", ((window.innerHeight / 4) - (10)));
 $(".button").css("width", $(".preview").innerWidth() - 5);
@@ -105,7 +114,15 @@ $(document).keyup((e) => {
 
 $(".exit-button").click(() => {$(".modal").css("display", "none")});
 
-// set height of slide-img
-$(".slide-img").attr("height", window.innerHeight * 4 / 5);
-$(".slide-img").css("margin-top", (window.innerHeight / 10)); 
+
+if (window.innerWidth < 756) {
+  // mobile
+} else {
+  // desktop
+  // set height of slide-img
+  $(".slide-img").attr("height", window.innerHeight * 4 / 5);
+  $(".slide-img").css("margin-top", (window.innerHeight / 10)); 
+  
+
+}
 

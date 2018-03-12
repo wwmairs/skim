@@ -25,13 +25,6 @@ body {
     letter-spacing: 10px;
 }
 
-svg {
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-}
-
 /* content */
 
 #content {
@@ -76,6 +69,7 @@ svg {
     border-bottom: 4px solid var(--color-one);
 }
 
+/* desktop */
 @media (min-width: 756px) {
     #name-box {
         position: fixed;
@@ -90,11 +84,43 @@ svg {
         margin-top: 50px;
         margin-left: 50%;
     }
+    #first_pane {
+        height: 100vh;
+    }
+    svg {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
 }
+}
+
+/* mobile */
+@media (max-width: 756px) {
+    #name-box {
+        position: fixed;
+        top: 0px;
+        height: 100px;
+        text-align: center;
+        width: 100%;
+        z-index: 2;
+    }
+    #content {
+        margin-top: 100px;
+    }
+    svg {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+}
+
 
 .pane {
     height: 100vh;
 }
+
 
 .filler {
     padding-top: 20px;
