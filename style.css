@@ -20,8 +20,6 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: italic;
-    margin-left: 15px;
-    font-size: 64px;
     letter-spacing: 10px;
 }
 
@@ -43,13 +41,10 @@ body {
     padding: 5px;
     text-decoration: none;
     margin: 0 auto;
-    width: 412px;
     transform: translateY(-75%);
 }
 
 #links li {
-    padding-left: 40px;
-    padding-right: 40px;
     display: inline-block;
     float: left;
     border-right: 1px solid black;
@@ -79,6 +74,8 @@ body {
         text-align: center;
         margin: auto;
         transform: translateY(-50%);
+        font-size: 64px;
+        /*margin-left: 15px;*/
     }
     #content {
         margin-top: 50px;
@@ -88,22 +85,30 @@ body {
         height: 100vh;
     }
     svg {
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-}
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+    #links {
+        width: 412px;
+    }
+    #links li {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 /* mobile */
 @media (max-width: 756px) {
     #name-box {
         position: fixed;
-        top: 0px;
+        top: 0;
         height: 100px;
         text-align: center;
-        width: 100%;
+        width: 100vw;
         z-index: 2;
+        font-size: 50px;
     }
     #content {
         margin-top: 100px;
@@ -113,7 +118,13 @@ body {
         top: 0;
         left: 0;
     }
-
+    #links {
+        width: 292px;
+    }
+    #links li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 
