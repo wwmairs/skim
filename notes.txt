@@ -1,5 +1,7 @@
 [ ] picture first, then about underneath
-[ ] gallery - description underneath
-[ ] grey tint on hover on buttons, white text with name and date
+	- idk what I think about this from a layout point of view
+[x] gallery - description underneath
+[x] grey tint on hover on buttons, white text with name and date
 [ ] colors
 [ ] make it mobile friendly! notes on github issue
+[ ] use models to finish the rest of the galleries
