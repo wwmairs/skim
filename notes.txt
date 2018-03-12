@@ -1,0 +1,5 @@
+[ ] picture first, then about underneath
+[ ] gallery - description underneath
+[ ] grey tint on hover on buttons, white text with name and date
+[ ] colors
+[ ] make it mobile friendly! notes on github issue

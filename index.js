@@ -108,3 +108,4 @@ $(".exit-button").click(() => {$(".modal").css("display", "none")});
 // set height of slide-img
 $(".slide-img").attr("height", window.innerHeight * 4 / 5);
 $(".slide-img").css("margin-top", (window.innerHeight / 10)); 
+

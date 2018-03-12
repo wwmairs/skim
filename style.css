@@ -135,8 +135,26 @@ svg {
     margin-left: 5px;
 }
 
-.button:hover{
-    background-color: rgba(134,176,62,0.4);
+.button-label {
+    display: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.button:hover .button-label {
+    display: inline-block;
 }
 
 /* modals */
