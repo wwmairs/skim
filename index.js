@@ -102,7 +102,7 @@ let buttons = document.getElementsByClassName("button");
 for (var i = 0; i < buttons.length; i++) {
   let b = buttons[i];
   let m = $("#" + b.dataset.dir);
-  b.onclick = () => {m.css("display", "block")};
+  b.onclick = () => {console.log("clicked on ", m); m.css("display", "block")};
 }
 
 // esc key or x button closes modals

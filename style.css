@@ -4,7 +4,7 @@
     /* this is also color two rgb(134,176,62)*/
     --color-three: #b03e86;
     /* this is also color three rgb(176,62,134) */
-    --color-four: #b0683e;
+    --color-four: #FFF36D;
 }
 
 body {
@@ -81,9 +81,6 @@ body {
         margin-top: 50px;
         margin-left: 50%;
     }
-    #first_pane {
-        height: 100vh;
-    }
     svg {
         position: fixed;
         z-index: -1;
@@ -109,6 +106,9 @@ body {
         width: 100vw;
         z-index: 2;
         font-size: 50px;
+    }
+    #buttons_pane {
+        height: 200vh;
     }
     #content {
         margin-top: 100px;
