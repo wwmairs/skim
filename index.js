@@ -14,7 +14,7 @@ svg.setAttribute("height", container.clientHeight);
 let ps = [];
 container.appendChild(svg);
 
-cs = ["#3e86b0", "#86B03E", "#b03e86", "#b0683e"];
+cs = ["#7AB7CD", "#C6677E", "#67C6AF", "#FFF36D"];
 
 for (var i = 0; i < NUM_PANES; i++) {
   let p = document.createElementNS(svgns, "rect");
