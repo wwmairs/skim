@@ -3,7 +3,7 @@
 [x] gallery - description underneath
 [x] grey tint on hover on buttons, white text with name and date
 [x] colors
-[ ] make it mobile friendly! notes on github issue
+[x] make it mobile friendly! notes on github issue
 [x] use models to finish the rest of the galleries
 	- replace special characters with html entities
 [ ] better quality images for inside the modals

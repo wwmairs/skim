@@ -117,11 +117,13 @@ $(".exit-button").click(() => {$(".modal").css("display", "none")});
 
 if (window.innerWidth < 756) {
   // mobile
+  $(".slide-img").attr("height", window.innerHeight * 3 / 10);
+  $(".carousel").css("margin-top", (window.innerHeight * 7 / 20)); 
 } else {
   // desktop
   // set height of slide-img
   $(".slide-img").attr("height", window.innerHeight * 4 / 5);
-  $(".slide-img").css("margin-top", (window.innerHeight / 10)); 
+  $(".carousel").css("margin-top", (window.innerHeight / 10)); 
   
 
 }
