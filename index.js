@@ -3,7 +3,7 @@
 /////////////////////////////
 
 // set up svg
-const NUM_PANES = 4;
+const NUM_PANES = 5;
 // 4 is a good frac for desktop
 const FRAC = 2;
 const svgns = "http://www.w3.org/2000/svg";
@@ -14,7 +14,7 @@ svg.setAttribute("height", container.clientHeight);
 let ps = [];
 container.appendChild(svg);
 
-cs = ["#7AB7CD", "#C6677E", "#67C6AF", "#FFF36D"];
+cs = ["#7AB7CD", "#C6677E", '#CD907A', "#67C6AF", "#FFF36D"];
 
 for (var i = 0; i < NUM_PANES; i++) {
   let p = document.createElementNS(svgns, "rect");
