@@ -1,9 +1,7 @@
 :root {
-    --color-one: #3e86b0;
-    --color-two: #86B03E;
-    /* this is also color two rgb(134,176,62)*/
-    --color-three: #b03e86;
-    /* this is also color three rgb(176,62,134) */
+    --color-one: #7AB7CD;
+    --color-two: #C6677E;
+    --color-three: #67C6AF;
     --color-four: #FFF36D;
 }
 
