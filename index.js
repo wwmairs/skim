@@ -117,8 +117,8 @@ $(".exit-button").click(() => {$(".modal").css("display", "none")});
 
 if (window.innerWidth < 756) {
   // mobile
-  $(".slide-img").attr("height", window.innerHeight * 3 / 10);
-  $(".carousel").css("margin-top", (window.innerHeight * 7 / 20)); 
+  $(".slide-img").attr("height", window.innerHeight * 2 / 5);
+  $(".carousel").css("margin-top", (window.innerHeight * 3 / 10)); 
 } else {
   // desktop
   // set height of slide-img
