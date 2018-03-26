@@ -4,12 +4,17 @@
 [x] grey tint on hover on buttons, white text with name and date
 [ ] colors
 [ ] make it mobile friendly! notes on github issue
-[ ] use models to finish the rest of the galleries
+[x] use models to finish the rest of the galleries
 	- replace special characters with html entities
 [ ] better quality images for inside the modals
 	- they should all be the size of the diploma photos
 	- how do you only load these if the modal gets opened?
 	- i'm not truly sure how important this is... let's ask sarah
+
+things that just need touching up:
+	[ ] sizing of modal descriptions
+		- i think jesuitana is the longest one, so as long as that one
+		  fits we're golden
 
 things I need from Sarah:
 - dates for 
