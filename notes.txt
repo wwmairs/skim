@@ -5,9 +5,11 @@
 [ ] colors
 [ ] make it mobile friendly! notes on github issue
 [ ] use models to finish the rest of the galleries
-[ ] better quality imaged for inside the modals
+	- replace special characters with html entities
+[ ] better quality images for inside the modals
 	- they should all be the size of the diploma photos
 	- how do you only load these if the modal gets opened?
+	- i'm not truly sure how important this is... let's ask sarah
 
 things I need from Sarah:
 - dates for 
@@ -16,6 +18,9 @@ things I need from Sarah:
 	- de bello belgico
 - descriptions for 
 	- other
+- are treatment reports something people might want to see?
+	- link to em in the gallery description
 - a good email
 - a good phone number
 - possibly a different way to contact, if she wants
+- what does she think of the photo quality?
