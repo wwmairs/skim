@@ -135,6 +135,11 @@ body {
     padding-top: 20px;
 }
 
+#about-section {
+    line-height: 1.3em;
+    padding-top: 40px;
+}
+
 #email {
     color: black;
     text-decoration: none;
