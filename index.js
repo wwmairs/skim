@@ -64,7 +64,7 @@ t2.setAttribute("letter-spacing", "5px");
 t2.setAttribute("font-family", "Roboto Slab");
 t2.setAttribute("font-weight", "300");
 t2.setAttribute("font-style", "normal");
-t2.innerHTML = "books &bull; arts";
+t2.innerHTML = "bookbinding &bull; custom boxes &bull; repair";
 m.appendChild(t);
 m.appendChild(t2);
 svg.appendChild(m);
