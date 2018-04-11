@@ -1,36 +1,16 @@
-[ ] picture first, then about underneath
-	- idk what I think about this from a layout point of view
-[x] gallery - description underneath
-[x] grey tint on hover on buttons, white text with name and date
-[x] colors
-[x] make it mobile friendly! notes on github issue
-[x] use models to finish the rest of the galleries
-	- replace special characters with html entities
+this one it very important!
+[ ] sizing of modal descriptions
+	- i think jesuitana is the longest one, so as long as that one
+	  fits we're golden
+[ ] test on different devices
+	- iphone
+	- ipad
+	- adam's phone
+	- desktop 
 [ ] better quality images for inside the modals
 	- they should all be the size of the diploma photos
 	- how do you only load these if the modal gets opened?
 	- i'm not truly sure how important this is... let's ask sarah
-
-things that just need touching up:
-	[ ] sizing of modal descriptions
-		- i think jesuitana is the longest one, so as long as that one
-		  fits we're golden
-	[ ] test on different devices
-		- iphone
-		- ipad
-		- adam's phone
-		- desktop 
-
 things I need from Sarah:
-- dates for 
-	- other
-	- bookmarks
-	- de bello belgico
-- descriptions for 
-	- other
 - are treatment reports something people might want to see?
 	- link to em in the gallery description
-- a good email
-- a good phone number
-- possibly a different way to contact, if she wants
-- what does she think of the photo quality?
