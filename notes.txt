@@ -7,12 +7,10 @@ this one it very important!
 	- ipad
 	- adam's phone
 	- desktop 
-[ ] better quality images for inside the modals
-	- they should all be the size of the diploma photos
-	- how do you only load these if the modal gets opened?
-	- i'm not truly sure how important this is... let's ask sarah
 
 [ ] a favicon!
 things I need from Sarah:
-- are treatment reports something people might want to see?
-	- link to em in the gallery description
+	- a resume
+		[ ] fix link to it
+	- double check contacts
+	- date for 18th
