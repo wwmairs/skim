@@ -11,6 +11,8 @@ this one it very important!
 	- they should all be the size of the diploma photos
 	- how do you only load these if the modal gets opened?
 	- i'm not truly sure how important this is... let's ask sarah
+
+[ ] a favicon!
 things I need from Sarah:
 - are treatment reports something people might want to see?
 	- link to em in the gallery description
