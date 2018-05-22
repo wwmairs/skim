@@ -2,6 +2,9 @@
 // svg ish
 /////////////////////////////
 
+// preview buttons
+const NUM_ROWS = 5;
+
 // set up svg
 const NUM_PANES = 5;
 // 4 is a good frac for desktop
@@ -94,7 +97,7 @@ function resizeRects() {
   l.setAttribute("style", "margin-top: " + ((window.innerHeight / 2) - 60) + "px");
 
 // setting dimensions of preview images and buttons
-$(".preview_image").attr("height", ((window.innerHeight / 4) - (10)));
+$(".preview_image").attr("height", ((window.innerHeight / NUM_ROWS) - (10)));
 $(".button").css("width", $(".preview").innerWidth() - 5);
 
 // setting up buttons to load modals corresponding to dataset.dir
