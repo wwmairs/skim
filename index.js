@@ -127,7 +127,6 @@ if (window.innerWidth < 756) {
   // set height of slide-img
   $(".slide-img").attr("height", window.innerHeight * 4 / 5);
   $(".carousel").css("margin-top", (window.innerHeight / 10)); 
-  
 
 }
 
