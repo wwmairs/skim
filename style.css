@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Quicksand", sans-serif;
 		font-weight: 300;
     /*background: #f2f2f2;*/
     background: #fff;
@@ -230,8 +230,8 @@ body {
 }
 
 .modal-description {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
     font-style: italic;
     font-size: 1rem;
     line-height: 1;
