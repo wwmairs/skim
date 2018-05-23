@@ -8,7 +8,6 @@
 
 body {
     font-family: "Quicksand", sans-serif;
-		font-weight: 300;
     /*background: #f2f2f2;*/
     background: #fff;
     font-size: 14px;
@@ -27,7 +26,7 @@ body {
 
 #content {
     background: none;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
