@@ -62,7 +62,7 @@ t2.setAttribute("x", "50%");
 t2.setAttribute("y", "80%");
 t2.setAttribute("text-anchor", "middle");
 t2.setAttribute("fill", "#000");
-t2.setAttribute("font-size", "12px");
+t2.setAttribute("font-size", "13px");
 t2.setAttribute("letter-spacing", "3px");
 t2.setAttribute("font-family", "Baskerville");
 t2.setAttribute("font-weight", "300");
