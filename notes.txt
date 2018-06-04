@@ -1,7 +1,5 @@
-this one it very important!
-[ ] sizing of modal descriptions
-	- i think jesuitana is the longest one, so as long as that one
-	  fits we're golden
+[ ] sizing of first panel for books of nonsense
+
 [ ] test on different devices
 	- iphone
 	- ipad
@@ -9,8 +7,3 @@ this one it very important!
 	- desktop 
 
 [ ] a favicon!
-things I need from Sarah:
-	- a resume
-		[ ] fix link to it
-	- double check contacts
-	- date for 18th
