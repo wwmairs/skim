@@ -223,10 +223,13 @@ body {
 		}
 }
 
+#buttons_pane {
+     height: 200vh;
+ }
 /* mobile */
 @media (max-width: 575px) {
     #buttons_pane {
-        height: 200vh;
+        height: 300vh;
     }
 		#about-section {
 				padding-top: 0px;
